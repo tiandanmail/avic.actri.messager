@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Messager
+Bundle-SymbolicName: avic.actri.messager;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: avic.actri.messager.Activator
+Bundle-Vendor: actri.avic
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ avic.actri.runtime.core;bundle-version="1.0.0",
+ avic.actri.runtime.ui;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy

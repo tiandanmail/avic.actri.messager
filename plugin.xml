@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            id="avic.actri.messager"
+            name="ACTRI">
+      </category>
+      <view
+            allowMultiple="false"
+            category="avic.actri.embedded.dev"
+            class="avic.actri.messager.view.MessagerView"
+            icon="icons/qq16.gif"
+            id="avic.actri.messager.view"
+            name="消息"
+            restorable="true">
+      </view>
+   </extension>
+
+</plugin>
